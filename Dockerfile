@@ -8,6 +8,6 @@ EXPOSE 5678
 
 WORKDIR /home/private-bower
 
-ADD ./bowerConfig.json /home/private-bower/bowerConfig.json
+# ADD ./bowerConfig.json /home/private-bower/bowerConfig.json
 
 ENTRYPOINT private-bower --config /home/private-bower/bowerConfig.json
